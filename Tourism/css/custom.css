@@ -1,0 +1,209 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+li
+{
+	list-style: none;
+}
+.nav
+{
+	background-color: black;
+}
+
+.nav ul
+{
+	padding: 0;
+	margin: 0;
+
+}
+.nav ul li
+{
+	display: inline-block;
+
+}
+.nav ul li a
+{
+	font-family: sans-serif;
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 15px;
+	text-shadow: 1px 1px 5px lightblue;
+	font-size: 125%;
+
+}
+
+.nav ul li a:hover
+{
+	background-color: blue;
+}
+
+.nav ul li:nth-child(1)
+{
+	margin-left:58%; 
+}
+
+/* header full starts */
+.header
+{
+	
+	height: 660px;
+	background-position: 10%;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-image: url(../img/rajasthan.jpg);
+}
+.header-img h1
+{
+	color: red;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 400%;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	right: 25%;
+}
+.header-img .form{
+	position: absolute;
+	top: 65%;
+	left: 25%;
+	right: 25%;
+	
+}
+.header-img .form *
+{
+	padding: 10px;
+}
+.header-img .form input[type=text]{
+	width: 60%;
+	
+}
+.header-img .form input[type=submit]{
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: rgba(0,0,200,0.5);
+	border: none;
+	color: white;
+	transition: 0.5s;
+}
+.header-img .form input[type=submit]:hover{
+	background-color: rgba(0,0,200,0.9); 
+}
+.img-scheme
+{
+	display: inline-block;
+	text-align: center;
+	margin-top:  -7%;
+
+}
+.img-scheme div.outer 
+{
+	transition: 0.5s;
+	/*padding: 5px;*/
+	box-shadow: 1px 1px 10px lightblue;
+	width: 20%;
+	margin-left: 4%;
+	float: left;	
+}
+.img-scheme div.outer:hover
+{
+	box-shadow: 1px 1px 50px lightblue;
+}
+
+.img-scheme div img 
+{
+	width: 100%;
+	height: 200px;	
+}
+.img-scheme div div h1{
+	text-shadow: 1px 1px #00a;
+}
+.img-scheme div div button{
+	padding: 10px;
+	background-color: #00e;
+	border-radius: 10px;
+	color: white;
+	border: groove 5px lightblue;
+	margin-bottom: 15px;
+}
+/* FOOTER STARTS */
+.footer{
+	background: linear-gradient(to right, black,#00e);
+}
+.footer p{
+	text-align: center;
+	padding: 15px;
+	color: #ffa;
+	text-shadow: 1px 1px red;
+	font-size: 105%;
+	letter-spacing: 7px;
+}
+/* footer ends */
+
+
+/* header partial starts*/
+.header-par
+{
+	height: 300px;
+	background-position: 90%;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-image: url(../img/rajasthan.jpg);
+}
+/* header partial ends*/
+
+
+/* services starts */
+.services{
+	margin-top: -5%;
+}
+.services div{
+	text-align: center;
+	width: 22%;
+	margin-left: 2%;
+	padding-bottom: 20px;
+	display: inline-block;
+	box-shadow: 1px 1px 10px lightblue;
+}
+.services div img{
+	width: 100%;
+}
+.services div a{
+	padding: 15px;
+	color: white;
+	display: block;
+	width: 40%;
+	margin-left: 25%;
+	margin-bottom: 2px;
+	background-color: #00e;
+}
+/* services ends */
+
+/* services main2 starts */
+.ser-outer{
+	padding: 10px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 50%;
+	margin-left: 25%;
+	box-shadow: 1px 1px 50px lightblue;
+}
+.ser-outer img{
+	width: 45%;	
+	/*display: inline-block;*/
+}
+.ser-outer div{
+	text-align: center;
+	/*margin-top: -50%;*/
+	width: 45%;
+	display: inline-block;
+}
+/* services main2 ends */
